@@ -9,13 +9,8 @@ public class ShoppingCart extends Product{
         this.price = price;
         this.description = description;
     }
-    public static void main(String[]args)
-    {
+
+    public int calculateTotal() {
         Product[] products = new Product[10];
-        for(Product p: products){
-            System.out.println(p.getDescription());
-        }
     }
-
-
 }
